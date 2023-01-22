@@ -1,0 +1,378 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+#slider_text {
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+#slider_shop_now_btn {
+    border: 2px solid white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.carousel-caption {
+    padding-bottom: 20%;
+}
+
+.First_carousel_arrow {
+    border: 2px solid white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+/* ECOMMERCE SLIDER END */
+
+/* view all products bnt */
+
+.button_container {
+    /* position: absolute; */
+    left: 0;
+    right: 0;
+    margin-top: 2rem;
+}
+
+.description,
+.link {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+.description {
+    font-size: 35px;
+}
+
+.btn {
+    border-radius: 0;
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #222;
+    padding: 17px 60px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
+
+.btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.btn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 190%;
+    background: #78c7d2;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-5%) translateY(-25%) rotate(45deg);
+}
+
+.link {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.link a {
+    color: #000;
+    font-size: 25px;
+}
+
+/* view all products btn end  */
+
+/* .hover_image_container {} */
+.hover_image_container{
+    background-image: url(/images/hd_background.jpg);
+    background-position: center;
+    height: fit-content;
+
+}
+
+
+.hover_image_background {
+    width: 100%;
+    height: 80vh;
+
+}
+
+.hover_image {
+    display: flex;
+    justify-content: center;
+}
+
+.image_hoverable {
+    width: 90%;
+    transition: 0.5s;
+    height: 70%;
+    /* position: absolute; */
+}
+
+.image_hoverable:hover {
+    width: 100%;
+}
+
+.limlted_edition_spring_dress_shop_colloction_block {
+    width: 80%;
+    padding: 4rem;
+    display: grid;
+    align-items: center;
+    /* position: absolute; */
+    /* padding: 30px; */
+}
+
+.limided_edition_block {
+    display: grid;
+    align-items: center;
+    height: 280px;
+    /* border: 2px solid white; */
+    position: relative;
+    width: fit-content;
+    height: max-content;
+    padding: 2rem;
+}
+
+.horizontal_and_limited_edition_block {
+    display: flex;
+    align-items: center;
+}
+
+.limlted_edition {
+    position: relative;
+    color: white;
+    margin-left: 80px;
+}
+
+.limited_edition_line {
+    border-color: white;
+    width: 4rem;
+    border: 1px solid white;
+    position: absolute;
+}
+
+.spring_dress {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 80px;
+    /* font-family: "Playfair Display SC", Sans-serif; */
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.spring_dress:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.shop_collection {
+    position: relative;
+    color: white;
+    padding: 20px 50px 20px 0px;
+    text-decoration: none;
+    width: 227px;
+    text-align: center;
+    border-radius: 60px;    
+}
+
+.shop_collection_btn{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    border: 1px solid white;
+    /* padding: 20px 50px 20px 50px; */
+    border-radius: 60px;
+    width: 300px; 
+    transition: 0.3s;
+}
+
+.shop_collection_btn:hover .shop_collection{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.shop_collection_line_arrow{
+    border: 1px solid white;
+    width: 40px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 206px;
+}
+
+.shop_collection_btn:hover   .shop_collection_line_arrow{
+    border-color: black;
+}
+
+/* three slide */
+#slide_three_all_image_container{
+    margin: 10px;
+}
+
+#shop_now_slide_three{
+    position: absolute;
+    display: grid;
+    height: 50vh;
+    align-items: flex-end;
+}
+
+#slide_three_images{
+    height: 50vh;
+}
+
+#shop_now_for_slide_three{
+    border: 1px solid white;
+    padding: 16px 40px;
+    background-color: white;
+    color: #000;
+}
+
+.mySlides {display:none;}
+
+.limlted_edition_spring_dress_shop_colloction_block_for_exclusive{
+    position: absolute;
+    width: 80%;
+    height: 80vh;
+    display: grid;
+    align-items: center;    
+    margin-left: 4rem;
+}
+
+/* instagram follow start */
+.instagram_container{
+    margin-top: 2rem;
+}
+
+.instagram_link{
+    display: grid;
+    justify-content: center;
+    font-size: 50px;
+    color: #B05E99;
+}
+
+.instagram_logo{
+    display: grid;
+    justify-content: center;
+}
+
+.instagram_block{
+    display: grid;
+    justify-content: center;
+    line-height: 80px;
+}
+
+.instagram_image{
+    width: 40px;
+}
+
+.offer_link{
+    display: grid;
+    justify-content: center;
+    line-height: 16px;
+    list-style: none;
+}
+
+.offer_link_line{
+    text-align: center;
+    max-width: 550px;
+}
+
+.follow_us_instagram{
+    display: grid;
+    justify-content: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* instagram follow end */
+
+#footer_start{
+    background: black;
+    color: wheat;
+}
+
+#form_inputs{
+    border-color: wheat;
+    border: 1px solid;
+    padding: 10px;
+    color: wheat;
+}
+
+#input_send_btn{
+    background-color: wheat;
+    color: #000;
+    border: none;
+    font-weight: 600;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.product_name{
+    text-align: center;
+}
+
+.product_for{
+    text-align: center;
+}
+
+.ecommerce_slider_product_price{
+    font-weight: 900 !important;
+    color: black !important;
+    text-align: center;
+}
+
+.ecommerce_slider_product_cart_btn{
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: black;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cart_icon{
+    width: 32px;
+    height: 22px;
+}
+
+#navbar_link{
+    color: #000;
+    font-weight: 600;
+}
+
+#footer_discover{
+    width: fit-content !important;
+}
+
+#footer_about{
+    width: fit-content !important;
+}
