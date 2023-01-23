@@ -1,5 +1,12 @@
-@media (min-width: 1025px) {
-    .h-custom {
-    height: 100vh !important;
-    }
-    }
+.navbar-light .navbar-toggler-icon {
+    background-image: url(/images/toggol_icon.png) !important;
+}
+
+.cart_section{
+    padding-top: 200px;
+}
+
+.cart_block{
+    background-color: red;
+    max-width: 990px;
+}
