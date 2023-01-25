@@ -158,7 +158,7 @@
     top: 50%;
     height: 32px;
     background-image:url(/images/controls.pngs);
-    /* background-color: blue; */
+    background-color: blue;
     cursor: pointer;
     position: absolute;
     z-index: 99;

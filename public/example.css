@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+  /* background:#eee; */
+}
+
+.size span {
+  font-size: 11px;
+}
+
+.color span {
+  font-size: 11px;
+}
+
+.product-deta {
+  margin-right: 70px;
+}
+
+.gift-card:focus {
+  box-shadow: none;
+}
+
+.pay-button {
+  color: #fff;
+}
+
+.pay-button:hover {
+  color: #fff;
+}
+
+.pay-button:focus {
+  color: #fff;
+  box-shadow: none;
+}
+
+.text-grey {
+  color: #a39f9f;
+}
+
+.qty i {
+  font-size: 11px;
+}
+
+#container{
+    box-shadow: 0px -2px 14px -6px gray;
+}
+
+#refresh_icon{
+    padding: 0px 10px 0px 10px;
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+#qty_box{
+    padding-left: 10px;
+}
+
+#headings_cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Shopping_cart_heading{
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+}
+
+@media screen and (max-width: 450px) and (min-width: 280px) {
+    #qty_box{
+        position: absolute;
+        margin-left: 117px;
+        margin-top: 85px;
+        padding-left: 0;
+    }
+}
